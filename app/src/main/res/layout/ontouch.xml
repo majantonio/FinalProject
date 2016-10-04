@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="330dp"
+        android:background="@drawable/logo2"
+        android:id="@+id/imageView"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/xy1"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:hint="X"
+        android:textSize="20dp"
+        android:enabled="false"
+        android:textColor="#c1614c"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/xy2"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Y"
+        android:textSize="20dp"
+        android:enabled="false"
+        android:textColor="#c1614c"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/diff"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Difference"
+        android:textSize="20dp"
+        android:enabled="false"
+        android:textColor="#c1614c"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/quadrant"
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Quadrant"
+        android:textSize="20dp"
+        android:enabled="false"
+        android:textColor="#c1614c"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/motion"
+        android:layout_marginTop="550dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Motion"
+        android:textSize="20dp"
+        android:enabled="false"
+        android:textColor="#c1614c"/>
+
+
+</RelativeLayout>

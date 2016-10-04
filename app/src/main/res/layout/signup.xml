@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView2"
+        android:background="@drawable/logo2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:hint="First Name"
+        android:id="@+id/fname"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Last Name"
+        android:id="@+id/Lname"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Username"
+        android:id="@+id/Username"
+        />
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="20dp"
+        android:text=""
+        android:id="@+id/email"
+        android:hint="Email"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Password"
+        android:id="@+id/password"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Confirm Password"
+        android:id="@+id/confpassword" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="Sign Up"
+        android:textSize="25dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="120dp"
+        android:id="@+id/okbtn"
+        android:background="#c1614c"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
